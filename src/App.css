@@ -1,38 +1,226 @@
-.App {
-  text-align: center;
+.sidebar_logo_padding {
+  padding-top: 26px;
+  padding-left: 23px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar_logo img {
+  width: 39px;
+  height: 32px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar_logo_text {
+  margin-left: 4px;
+  color: #566a7f;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar_logo_btn {
+  width: 30px;
+  height: 30px;
+  background-color: #696cff;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -32px;
+  transform: translate(-50%, -50%);
 }
-
-.App-link {
-  color: #61dafb;
+.sidebar_logo_before::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -42px;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5f9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
+.sidebar_padding {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.menu_item_margin {
+  margin-right: 14px;
+}
+.menu_item_text {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+.active {
+  background-color: #e7e7ff;
+}
+.active .menu_item_logo,
+.active .menu_item_text,
+.active .menu_item_arrow {
+  color: #696cff !important ;
+}
+.active::after {
+  content: "";
+  border-right: 4px solid #696cff;
+  border-radius: 4px 0px 1px 4px;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 0;
+  right: -17px;
+}
+.active .menu_item_arrow {
+  transform: rotate(90deg);
+}
+.menu_item_logo {
+  width: 24px;
+  height: 24px;
+}
+.sidebar_title h1 {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #a1acb8;
+  padding-left: 15px;
+  margin-bottom: 18px;
+}
+.sidebar_item:last-child {
+  margin: 0 !important;
+}
+.search_padding {
+  padding: 23px 23px 0px;
+}
+.search input {
+  height: 62px;
+}
+.search_mb {
+  margin-bottom: 26px;
+}
+.search_icon {
+  left: 24px;
+}
+.input_padding {
+  padding-left: 52px;
+}
+.nation_icon img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.avatar {
+  width: 38px;
+  height: 38px;
+}
+.prize_img img {
+  width: 96px;
+  height: 155px;
+}
+.prize_gap {
+  gap: 26px;
+}
+.prize_badge {
+  display: inline-block;
+  color: #03c3ec;
+  background: rgba(3, 195, 236, 0.1);
+}
+.prize_mb_3 {
+  margin-bottom: 3px;
+}
+/*hover*/
+.active:hover {
+  background-color: #e7e7ff !important;
+}
+.menu_item:hover {
+  background-color: rgba(67, 89, 113, 0.1);
+}
+.search:focus-visible,
+.search input:focus-visible {
+  outline: none !important;
+}
+.icon_dots {
+  right: 24px;
+  cursor: pointer;
+}
+.prize_slider {
+  max-width: 90px;
+}
+.prize_slider .css-eg0mwd-MuiSlider-thumb {
+  display: none;
+}
+.prize_slider .css-14pt78w-MuiSlider-rail {
+  background-color: #435971 !important;
+}
+.prize_slider .css-1gv0vcd-MuiSlider-track {
+  background-color: #696cff !important;
+}
+.prize_slider {
+  height: 8px;
+  padding: 0px !important;
+}
+.icon_demo {
+  /* Oval */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: calc(50% - 110px / 2 + 110px);
+  top: calc(50% - 110px / 2 + 110px);
+
+  border: 8px dashed #696cff;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+/*custom*/
+.w-f {
+  width: 100%;
+}
+.flex-justify-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-justify-sb {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-justify-end {
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-align-end {
+  align-items: flex-end;
+}
+.flex-align-center {
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.circle {
+  border-radius: 50%;
+}
+.text-color-default {
+  color: #696cff;
+}
+.bg-default {
+  background-color: #696cff;
+}
+.text-gray-search {
+  color: #8592a3;
+}
+.text-gray-prize-1 {
+  color: #566a7f;
+}
+.text-gray-prize-2 {
+  color: #697a8d;
+}
+.text-gray-prize-3 {
+  color: #a1acb8;
+}
+.text-gray-prize-4 {
+  color: #566a7f;
 }
