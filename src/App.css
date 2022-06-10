@@ -175,7 +175,70 @@
   border: 8px dashed #696cff;
   transform: matrix(0, -1, -1, 0, 0, 0);
 }
+.info .avatar {
+  width: 42px;
+  height: 42px;
+}
+.macbook {
+  margin-bottom: 55px;
+}
+.macbook img {
+  height: 235px;
+  width: 100%;
+}
+.macbook .date {
+  bottom: -30px;
+  left: 25px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+.avatars .avatar::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+.avatars .avatar {
+  margin-left: -5px;
+}
+.avatars {
+  margin-right: 50px;
+}
+.btn p {
+  letter-spacing: 0.428571px;
+}
+.interactive {
+  border-top: 2px solid #eceef1;
+  border-radius: 4px;
+}
+.select .option {
+  border: 1px solid #696cff;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+.choose {
+  border: 1px solid rgba(67, 89, 113, 0.2);
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
+.choosed {
+  border: 1px solid #696cff;
+  background-color: #696cff;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
 /*custom*/
+.none-items-center {
+  align-items: flex-start !important;
+}
 .w-f {
   width: 100%;
 }
@@ -205,6 +268,15 @@
 }
 .text-color-default {
   color: #696cff;
+}
+.bg-default-opacity {
+  background-color: #e7e7ff;
+}
+.bg-green-1 {
+  background-color: rgba(113, 221, 55, 0.2);
+}
+.text-color-green-1 {
+  color: #71dd37;
 }
 .bg-default {
   background-color: #696cff;
