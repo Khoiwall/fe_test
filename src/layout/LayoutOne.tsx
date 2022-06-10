@@ -58,7 +58,7 @@ function LayoutOne() {
     ]
     const [option, setOption] = useState('Branding')
     return (
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid grid-cols-3 gap-7 mb-6">
             <div>
                 <div className="prize bg-white rounded-md mb-6">
                     <div className="pl-6 pt-5">
