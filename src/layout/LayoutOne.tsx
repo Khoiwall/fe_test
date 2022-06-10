@@ -253,7 +253,7 @@ function LayoutOne() {
                     </div>
                 </div>
             </div>
-            <div className="p-6 bg-white mr-6 rounded-md">
+            <div className="pt-6 px-6 bg-white mr-6 rounded-md">
                 <div className="mb-5 flex flex-justify-sb relative">
                     <h2 className="text-gray-prize-4 font-thin text-lg italic">For Business Sharks</h2>
                     <div className="text-gray-prize-3 pointer absolute" style={{ right: 0, top: 6 }}>

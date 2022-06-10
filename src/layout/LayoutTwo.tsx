@@ -110,7 +110,7 @@ function LayoutTwo() {
                         <p className="text-gray-prize-3 text-sm mb-1.5">Your score is based on the last</p>
                         <p className="text-gray-prize-2 text-sm font-bold">287 Transactions</p>
                     </div>
-                    <div className="py-2.5 text-center btn_view_account rounded-md bg-default btn">
+                    <div className="py-2.5 text-center btn_view_account rounded-md bg-default btn pointer">
                         <p className="text-white text-xs">View my Account</p>
                     </div>
                 </div>
