@@ -236,7 +236,7 @@
   border-radius: 4px;
 }
 .card_mb {
-  margin-bottom: 52px;
+  margin-bottom: 47px;
 }
 .card_mb1 {
   margin-bottom: 50px;
@@ -277,6 +277,55 @@
   width: 203px;
   margin: 0 auto;
 }
+.product_item {
+  border-top: 1px solid rgba(67, 89, 113, 0.2);
+}
+.product img {
+  width: 32px;
+  height: 32px;
+}
+.product p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.product span {
+  font-size: 13px;
+  line-height: 20px;
+}
+.category p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.payment .money p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.payment .money span {
+  font-size: 15px;
+  line-height: 23px;
+}
+.payment p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.order_status p {
+  font-size: 13px;
+  line-height: 18px;
+}
+.status {
+  width: 95px;
+}
+.balance_money {
+  font-size: 18px;
+  line-height: 25px;
+}
+.product_item {
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+.chart-border {
+  border-top: 1px solid #eceef1;
+}
 /*custom*/
 .none-items-center {
   align-items: flex-start !important;
@@ -316,6 +365,12 @@
 }
 .bg-green-1 {
   background-color: rgba(113, 221, 55, 0.2);
+}
+.bg-red-1 {
+  background-color: rgba(255, 62, 29, 0.2);
+}
+.text-color-red-1 {
+  color: #ff3e1d;
 }
 .text-color-green-1 {
   color: #71dd37;

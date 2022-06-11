@@ -6,12 +6,20 @@ const dashboards: any = [
     name: "Dashboards",
     child: [
       {
-        icon: null,
+        icon: `<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.16" fill-rule="evenodd" clip-rule="evenodd" d="M6 0C2.6916 0 0 2.6916 0 6C0 9.3084 2.6916 12 6 12C9.3084 12 12 9.3084 12 6C12 2.6916 9.3084 0 6 0Z" fill="#696CFF"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.3458 3 3 4.3458 3 6C3 7.6542 4.3458 9 6 9C7.6542 9 9 7.6542 9 6C9 4.3458 7.6542 3 6 3Z" fill="#696CFF"/>
+        </svg>
+        `,
         name: 'Analyt',
         child: null
       },
       {
-        icon: null,
+        icon: `<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 -6.67572e-06C1.3458 -6.67572e-06 0 1.34579 0 2.99999C0 4.65419 1.3458 5.99999 3 5.99999C4.6542 5.99999 6 4.65419 6 2.99999C6 1.34579 4.6542 -6.67572e-06 3 -6.67572e-06Z" fill="#435971"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 -6.67572e-06C1.3458 -6.67572e-06 0 1.34579 0 2.99999C0 4.65419 1.3458 5.99999 3 5.99999C4.6542 5.99999 6 4.65419 6 2.99999C6 1.34579 4.6542 -6.67572e-06 3 -6.67572e-06Z" fill="white" fill-opacity="0.4"/>
+        </svg>
+        `,
         name: 'Ecomme',
         child: null
       }
