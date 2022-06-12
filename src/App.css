@@ -326,6 +326,23 @@
 .chart-border {
   border-top: 1px solid #eceef1;
 }
+.announcement {
+  background-color: #ff3e1d;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+}
+.announcement p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+}
 /*custom*/
 .none-items-center {
   align-items: flex-start !important;

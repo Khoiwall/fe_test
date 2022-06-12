@@ -46,6 +46,7 @@ const tab = [
         </svg>
         `,
         name: 'Email',
+        announcement: 4,
         child: null
       },
       {

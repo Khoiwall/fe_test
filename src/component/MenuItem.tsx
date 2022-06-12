@@ -15,7 +15,7 @@ function MenuItem({
                 ? "py-2 px-3 pointer active menu_item rounded-lg relative"
                 : "py-2 px-3 pointer menu_item rounded-lg relative"}
         >
-            <div className="flex flex-justify-sb">
+            <div className="flex flex-justify-sb relative">
                 <div className="flex flex-align-center">
                     <div className="menu_item_margin flex flex-align-center menu_item_logo text-gray-400" dangerouslySetInnerHTML={{ __html: item.icon }}>
                         {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -24,6 +24,13 @@ function MenuItem({
                     </div>
                     <div className="menu_item_text text-gray-500">{item.name}</div>
                 </div>
+                {
+                    item.announcement === undefined ? null
+                        :
+                        <div className="announcement">
+                            <p className="uppercase">4</p>
+                        </div>
+                }
                 {
                     item.child === null
                         ? null
